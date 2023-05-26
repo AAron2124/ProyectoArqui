@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(63, 94, 251);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#3f5efb",
+    endColorstr="#fc466b",
+    GradientType=1
+  );
+  padding: 0;
+  border-radius: 5px;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  display: block;
+  width: 100%;
+}
+
+nav ul ul li a {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+nav ul ul li a:hover {
+  background-color: #c7b0b0;
+  border-radius: 5px;
+}
+
+#Arqui {
+  cursor: pointer;
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  font-size: 40px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+section div {
+  width: 30%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+section div h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+section div p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  section div {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  section div {
+    width: 100%;
+  }
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr="#3f5efb",
+    endColorstr="#fc466b",
+    GradientType=1
+  );
+}
+
+.tema1_1{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  
+}
+.tema1_2{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  
+}
+#tema2_4{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema2_3{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema2_2{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema2_1{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema3_1{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema3_2{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema3_3{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema4_1{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema4_2{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema4_3{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#tema4_4{
+  max-width: 800px; /* el ancho máximo que se desea que tenga el div */
+  margin: 0 auto; /* el valor "auto" centrará el div horizontalmente */
+  text-align: justify; /* opcional, para justificar el texto dentro del div */
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
